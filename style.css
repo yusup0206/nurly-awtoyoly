@@ -69,3 +69,13 @@
   transform: scale(1);
   transition: 0.3s all ease;
 }
+
+.menu {
+  transform: translateX(100%);
+  transition: 0.3s all ease;
+}
+
+.menu.active {
+  transform: translateX(0%);
+  transition: 0.3s all ease;
+}
